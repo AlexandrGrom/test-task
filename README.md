@@ -67,7 +67,9 @@ Builds
 [Android App ](https://github.com/BullyEntertainment/test-task/raw/master/builds/DevChallenge.apk)
 
 Screens
+
 ![Editor](https://github.com/BullyEntertainment/test-task/raw/master/editor.png "Editor")
+![App](https://github.com/BullyEntertainment/test-task/raw/master/screen.png "App")
 
 
 
