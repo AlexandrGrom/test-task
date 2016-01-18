@@ -27,7 +27,7 @@ Use:
 * `OnRenderImage` and a CG shader to create vignette effect;
 * `AnimationCurve` and SetFloat to animate vignette flickering;
 * C# interface for clickable objects;
-* Singletons for global managers
+* Singletons for global managers.
 
 
 ## What is important in this task:
@@ -44,20 +44,30 @@ Use:
 * No need to match reference watch model 100% precise;
 * No need to match materials and colors 100% precise;
 * No need to use exact font;
-* IDE used (better be Vim but anyway).
+* IDE used (better be [Vim](http://www.vim.org), ha).
 
 
 ## Bonus (for ninjas)
 
-* `+1` Use pool manager singleton and reuse small spheres
-* `+3` Implement a screen space UI button to capture screenshot
-* `+4` Implement screenshot sharing on Android and iOS
-* `+10` Implement LUT color grading that work on mobile (i.e with no Texture3D)
-* `+15` Create a wormhole effect under watch, that distorts real word camera feed
+* `+1` Use pool manager singleton and reuse small spheres;
+* `+3` Implement a screen space UI button to capture screenshot;
+* `+4` Implement screenshot sharing on Android and iOS;
+* `+10` Implement LUT color grading that work on mobile (i.e with no Texture3D);
+* `+15` Create a wormhole effect under watch, that distorts real word camera feed.
 
 ## References
 
-TODO: add
+Marker
+
+![Marker](https://github.com/BullyEntertainment/test-task/raw/master/marker.jpg "Marker to use")
+
+Builds
+
+[iOS App ](https://github.com/BullyEntertainment/test-task/raw/master/builds/DevChallenge.ipa)
+[Android App ](https://github.com/BullyEntertainment/test-task/raw/master/builds/DevChallenge.apk)
+
+Screens
+![Editor](https://github.com/BullyEntertainment/test-task/raw/master/editor.png "Editor")
 
 
 
