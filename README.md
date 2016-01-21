@@ -13,7 +13,7 @@ its hands show current time and day of week. Watch has skins that include:
 color of seconds hand, language of days, GMT timezone. There are two buttons
 to cycle though skins. Clicking sound is used as feedback to button clicks.
 The watch slowly rotates and small metal balls are popping out of its top
-when you click it. To create an old-school effect a camera effect is used a
+when you click it. To create an old-school look a camera effect is used: a
 vignette with some grain noise.
 
 ## Hints
@@ -24,7 +24,7 @@ Use:
 * Vuforia for AR experience and given marker;
 * `ScriptableObject` for skins (material, day names, time offset);
 *  Custom inspector for skins to validate constrain: week can only have 7 days;
-* `OnRenderImage` and a CG shader to create vignette effect;
+* `OnRenderImage` and a CG shader to create vignette effect and noise;
 * `AnimationCurve` and SetFloat to animate vignette flickering;
 * C# interface for clickable objects;
 * Singletons for global managers.
@@ -32,6 +32,9 @@ Use:
 
 ## What is important in this task:
 
+* Ability of candidate to quickly catch new things and learn on the fly;
+* Strict following to feature requirements, as it were a real-life project;
+* Attention to details;
 * Code performance and architecture;
 * Scene organization, asset names;
 * Project structure, prefabs, hierarchy;
@@ -45,6 +48,7 @@ Use:
 * No need to match materials and colors 100% precise;
 * No need to use exact font;
 * IDE used (better be [Vim](http://www.vim.org), ha).
+* Extra features not listed in initial task or bonus.
 
 
 ## Bonus (for ninjas)
@@ -72,5 +76,13 @@ Screens
 ![App](https://github.com/BullyEntertainment/test-task/raw/master/screen.png "App")
 
 
+[![AE in action](http://img.youtube.com/vi/sz8r3LHnoCU/0.jpg)](http://www.youtube.com/watch?v=sz8r3LHnoCU "AR In Action")
 
+
+## Submission
+
+* Include full source code (Unity project)
+* Include a brief decription of your decisions and challenges in project, as well as possible improvements.
+
+(Ninjas can just use git repository and share the link)
 
