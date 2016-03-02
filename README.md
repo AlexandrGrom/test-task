@@ -14,7 +14,7 @@ color of seconds hand, language of days, GMT timezone. There are two buttons
 to cycle though skins. Clicking sound is used as feedback to button clicks.
 The watch slowly rotates and small metal balls are popping out of its top
 when you click it. To create an old-school look a camera effect is used: a
-vignette with some grain noise.
+vignette with some grain noise (fullscreen effect).
 
 ## Hints
 
@@ -57,27 +57,31 @@ Use:
 * `+3` Implement a screen space UI button to capture screenshot;
 * `+4` Implement screenshot sharing on Android and iOS;
 * `+10` Implement LUT color grading that work on mobile (i.e with no Texture3D);
-* `+15` Create a wormhole effect under watch, that distorts real word camera feed.
+* `+15` Create a wormhole effect under watch, that distorts real world camera feed (see reference).
 
 ## References
 
-Marker
+### Marker
 
 ![Marker](https://github.com/BullyEntertainment/test-task/raw/master/marker.jpg "Marker to use")
 
-Builds
+### Builds
 
 [iOS App ](https://github.com/BullyEntertainment/test-task/raw/master/builds/DevChallenge.ipa)
 [Android App ](https://github.com/BullyEntertainment/test-task/raw/master/builds/DevChallenge.apk)
 
-Screens
+### Screens
 
 ![Editor](https://github.com/BullyEntertainment/test-task/raw/master/editor.png "Editor")
 ![App](https://github.com/BullyEntertainment/test-task/raw/master/screen.png "App")
 
+### Video
 
 [![AE in action](http://img.youtube.com/vi/sz8r3LHnoCU/0.jpg)](http://www.youtube.com/watch?v=sz8r3LHnoCU "AR In Action")
 
+### Distortion 
+
+![Distortion](http://i.ytimg.com/vi/Uef8FFNA-F0/hqdefault.jpg "Example of distortion")
 
 ## Submission
 
