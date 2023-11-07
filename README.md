@@ -3,7 +3,7 @@
 
 ## Brief
 
-Create a mobile app for Android and iOS in Unity using reference and
+Create a mobile app for Android or iOS in Unity or Unreal using reference and
 short description below.
 
 ## Description:
@@ -21,13 +21,10 @@ vignette with some grain noise (fullscreen effect).
 Use:
 
 * Git for version control, a gitignore and git flow model;
-* Vuforia for AR experience and given marker;
-* `ScriptableObject` for skins (material, day names, time offset);
-*  Custom inspector for skins to validate constrain: week can only have 7 days;
-* `OnRenderImage` and a CG shader to create vignette effect and noise;
-* `AnimationCurve` and SetFloat to animate vignette flickering;
-* C# interface for clickable objects;
-* Singletons for global managers.
+* Vuforia/ARFoundation/OpenXR for AR experience and given marker;
+* Unity: `ScriptableObject` for skins (material, day names, time offset);
+* Unity: Custom inspector for skins to validate constrain: week can only have 7 days;
+* Unity: C# interface for clickable objects;
 
 
 ## What is important in this task:
@@ -43,7 +40,7 @@ Use:
 
 ## What is not important
 
-* No need to model watch - use standard 3D primitives provided by Unity;
+* No need to model watch - use standard 3D primitives provided by Engine;
 * No need to match reference watch model 100% precise;
 * No need to match materials and colors 100% precise;
 * No need to use exact font;
@@ -67,10 +64,11 @@ Use:
 
 ### Builds
 
-[iOS App ](https://github.com/BullyEntertainment/test-task/raw/master/builds/DevChallenge.ipa)
-[Android App ](https://github.com/BullyEntertainment/test-task/raw/master/builds/DevChallenge.apk)
+[iOS App](https://github.com/BullyEntertainment/test-task/raw/master/builds/DevChallenge.ipa)
 
-### Screens
+[Android App](https://github.com/BullyEntertainment/test-task/raw/master/builds/DevChallenge.apk)
+
+### Unity Screens
 
 ![Editor](https://github.com/BullyEntertainment/test-task/raw/master/editor.png "Editor")
 ![App](https://github.com/BullyEntertainment/test-task/raw/master/screen.png "App")
@@ -89,4 +87,3 @@ Use:
 * Include a brief decription of your decisions and challenges in project, as well as possible improvements.
 
 (Ninjas can just use git repository and share the link)
-
